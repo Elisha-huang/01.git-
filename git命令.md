@@ -72,3 +72,12 @@ node_modules/
 ## 切换分支
 `git checkout 分支名` 或 `git switch 分支名`
 `git switch 分支名` 是 git v2.23.0 以后的版本才支持，所以会有兼容性问题
+
+## 合并分支
+先切换到要合并的分支上
+`git checkout master`
+将 hotfix 合并到 master 上
+`git merge hotfix`
+
+## 删除分支
+`git branch -d hotfix`

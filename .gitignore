@@ -1,0 +1,14 @@
+# 指定 git 忽略的文件
+# test.html
+
+# 忽略所有文件名是 test 的文件，不管后缀是什么
+test.*
+
+# 忽略所有后缀是 .tmp 的文件，不管文件名是什么
+# *.tmp
+
+# 取反，不忽略 test.tmp 文件，让 git 管理
+# !test.tmp
+
+# 忽略 node_modules 目录下的所有文件
+# node_modules/

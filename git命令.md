@@ -31,3 +31,23 @@
 
 ## 重置本地仓库、暂存区和工作区(比较危险，会覆盖正在开发的代码)
 `git reset --hard 版本号`
+
+## 忽略相关
+创建 .gitignore 文件，在该文件里添加要忽略的文件
+。gitignore 文件用 # 表示注释
+```gitignore
+# 指定 git 忽略的文件
+test.html
+
+# 忽略所有文件名是 test 的文件，不管后缀是什么
+test.*
+
+# 忽略所有后缀是 .tmp 的文件，不管文件名是什么
+*.tmp
+
+# 取反，不忽略 test.tmp 文件，让 git 管理
+!test.tmp
+
+# 忽略 node_modules 目录下的所有文件
+node_modules/
+```

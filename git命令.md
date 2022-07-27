@@ -62,4 +62,11 @@ node_modules/
 还可以有更多分支
 ```
 
-## lalalalala
+## 查看分支
+`git branch` 或 `git branch -v`
+
+## 创建分支
+`git branch 分支名`
+
+## 切换分支
+`git checkout 分支名` 或 `git switch 分支名`

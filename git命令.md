@@ -84,3 +84,19 @@ node_modules/
 
 ## 以一行、图形化的方式查看提交记录
 `git log --oneline --graph`
+
+## 给远程仓库配置别名
+`git remote add 远程仓库地址`
+eg: `git remote add origin`
+
+## 查看远程仓库别名
+`git remote -v`
+
+## 将本地仓库代码 master 分支推送到远程仓库
+`git push origin master`
+
+## 拉取远程仓库代码到 master 分支(已经有本地仓库，更新时用 git pull)
+`git pull origin master`
+
+## 克隆远程仓库(没有本地仓库，创建时使用 git clone)
+`git clone 远程仓库地址`

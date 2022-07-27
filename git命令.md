@@ -83,4 +83,4 @@ node_modules/
 `git branch -d hotfix`
 
 ## 以一行、图形化的方式查看提交记录
-got log --oneline --graph
+`git log --oneline --graph`

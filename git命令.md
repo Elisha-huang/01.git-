@@ -53,3 +53,13 @@ node_modules/
 
 # git 管理的是文件，如果目录为空，git 会自动忽略该目录
 ```
+
+## 分支工作流
+```text
+只在 master 分支上保留完全稳定的分支
+在 dev 分支上做开发，最终合并到 master 分支上
+在 hotfix 分支上进行紧急修复，最终合并到 master 分支上
+还可以有更多分支
+```
+
+## lalalalala

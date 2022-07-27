@@ -74,10 +74,13 @@ node_modules/
 `git switch 分支名` 是 git v2.23.0 以后的版本才支持，所以会有兼容性问题
 
 ## 合并分支
-先切换到要合并的分支上
+先切换到最终要合并的分支上
 `git checkout master`
 将 hotfix 合并到 master 上
 `git merge hotfix`
 
 ## 删除分支
 `git branch -d hotfix`
+
+## 以一行、图形化的方式查看提交记录
+got log --oneline --graph

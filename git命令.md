@@ -64,9 +64,11 @@ node_modules/
 
 ## 查看分支
 `git branch` 或 `git branch -v`
+`git branch -v` 查看的信息比较详细，会有提交时的备注信息
 
 ## 创建分支
 `git branch 分支名`
 
 ## 切换分支
 `git checkout 分支名` 或 `git switch 分支名`
+`git switch 分支名` 是 git 3.x 以后的版本才支持，所以会有兼容性问题

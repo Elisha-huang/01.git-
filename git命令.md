@@ -50,4 +50,6 @@ test.*
 
 # 忽略 node_modules 目录下的所有文件
 node_modules/
+
+# git 管理的是文件，如果目录为空，git 会自动忽略该目录
 ```
